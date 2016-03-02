@@ -1,0 +1,315 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body
+{
+	background-color: lightSkyBlue;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#main_container
+{
+	width: 1152px;
+	height: 1656px;
+	margin: 0 auto;
+	background-image:url(../images/background.jpg);
+}
+
+#header
+{
+	padding:14px 16px;
+}
+
+#logo
+{
+	float:left;
+	width:360px;
+	height:224px;
+	position:absolute;
+	z-index:1000;
+}
+
+#loginTab
+{
+	position:relative;
+	left:980px;
+	top:-14px;
+}
+
+#header ul
+{
+	margin: 0px 363px;
+	width:596px;
+	height:28px;
+	/*background-image:url(../images/menu.png)*/
+}
+
+#header ul li
+{
+	height: 38px;
+	margin-left: 24px;
+	text-indent: -999em;
+	background-repeat: no-repeat;
+	float:left;
+}
+
+#inicio
+{
+	width:87px;
+	background-image:url(../images/inicio_btn.png);
+}
+
+#acerca
+{
+	width:183px;
+	background-image:url(../images/acerca_btn.png);
+}
+
+#contact
+{
+	width:124px;
+	background-image:url(../images/contact_btn.png);
+}
+
+#blog
+{
+	width:87px;
+	background-image:url(../images/blog_btn.png);
+}
+
+
+#inicio:hover
+{
+	background-image:url(../images/inicio_over.png);
+}
+
+#acerca:hover
+{
+	background-image:url(../images/acerca_over.png);
+}
+
+#contact:hover
+{
+	background-image:url(../images/contact_over.png);
+}
+
+#blog:hover
+{
+	background-image:url(../images/blog_over.png);
+}
+
+#content
+{
+	width: 1028px;
+	height: 1006px;
+	margin-top:38px;
+	margin-left: 63px;
+	position:relative;
+}
+
+#buscar
+{
+	width: 297px;
+	height: 42px;
+	background-image: url(../images/buscar_img.jpg);
+	margin-left: 361px;
+}
+
+#buscar input
+{
+	text-align: center;
+	font-size:18px;
+	width: 247px;
+	height: 36px;
+	margin: 2px 0px 0 3px;
+	border: none;
+}
+
+#categorie_btn
+{
+	float:left;
+	margin-left: 40px;
+	margin-top: 45px;
+}
+
+#blue_header
+{
+	background-color: #01489a;
+	position: absolute;
+	width: 949px;
+	height: 53px;
+	z-index: 2;
+	color: white;
+	text-align: center;
+	font-size:36px;
+	line-height: 48px;
+}
+
+#categorie_btn img
+{
+	position:relative;
+	z-index:10;
+}
+
+#categories_menu
+{
+	z-index:100;
+	margin-top:-10px;
+	border:solid 1px #000000;
+	padding-bottom:10px;
+	width:328px;
+	position: relative;
+	background-color:white;	
+}
+
+#categories_menu ul li
+{
+	margin-top:10px;
+}
+
+#categories_menu ul li:hover
+{
+	background-color:#09F;
+	color:#FFFFFF;
+	cursor: pointer;
+}
+
+#lapa2
+{
+	background-image:url(../images/lapa2.png);
+	width: 313px;
+	height: 154px;
+	position: relative;
+	top: -1351px;
+	left: 670px;
+}
+
+#products_wraper
+{
+	position: absolute;
+	margin-left: 50px;
+	width: 937px;
+	height: 836px;
+	top: 510px;
+}
+
+.product
+{
+	margin-left: 35px;
+	margin-bottom: 10px;
+	width:183px;
+	float: left;
+}
+
+.product img
+{
+	width: 182px;
+	height: 146px;
+}
+
+.detail_btn
+{
+	width:183px;
+	height:25px;
+	background-color: #fd8e00;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color: white;
+	line-height: 25px;
+}
+
+.product_name
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin-top: 15px;
+	color: #2f5812;
+	font-size: 24px;
+	text-align: center;
+}
+
+.product_price
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin-top: 5px;
+	color: #2f5812;
+	font-size: 14px;
+	text-align: center;
+}
+
+.product_price span
+{
+	margin-top: 5px;
+	color: red;
+	font-size: 14px;
+}
+
+.addToCart_btn
+{
+	cursor: pointer;
+	width: 90px;
+	height: 39px;
+	background-image:url(../images/agregar.jpg);
+	margin-left: 50px;
+	margin-top: 15px;
+}
+
+.addToCart_btn:hover
+{
+	background-position:bottom;
+}
+
+#products_page_nav
+{
+	width:937px;
+	height: 43px;
+	background-color: #fd8e00;
+	position: relative;
+	top: 820px;
+	margin-left: 50px;
+}
+
+#prev_btn
+{
+	cursor: pointer;
+	background-image: url(../images/prev_btn.jpg);
+	width: 109px;
+	height: 20px;
+	float: left;
+	margin-top: 11px;
+}
+
+#prev_btn:hover
+{
+	background-position: bottom;
+}
+
+#next_btn
+{
+	cursor: pointer;
+	background-image: url(../images/next_btn.jpg);
+	width: 118px;
+	height: 20px;
+	float: left;
+	margin-top: 11px;
+}
+
+#next_btn:hover
+{
+	background-position: bottom;
+}
+
+#footer
+{
+	position: relative;
+	top: 395px;
+	left: 240px;
+}
+
+#footer ul li
+{
+	display: inline;
+	margin-left: 80px;
+}

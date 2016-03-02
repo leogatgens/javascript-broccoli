@@ -1,0 +1,157 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body
+{
+	background-color: lightSkyBlue;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#main_container
+{
+	width: 1152px;
+	height: 1656px;
+	margin: 0 auto;
+	background-image:url(../images/background.jpg);
+}
+
+#header
+{
+	padding:14px 16px;
+}
+
+#logo
+{
+	float:left;
+	width:360px;
+	height:224px;
+	position:absolute;
+	z-index:1000;
+}
+
+#loginTab
+{
+	position:relative;
+	left:980px;
+	top:-14px;
+}
+
+#header ul
+{
+	margin: 0px 363px;
+	width:596px;
+	height:28px;
+	/*background-image:url(../images/menu.png)*/
+}
+
+#header ul li
+{
+	height: 38px;
+	margin-left: 24px;
+	text-indent: -999em;
+	background-repeat: no-repeat;
+	float:left;
+}
+
+#inicio
+{
+	width:87px;
+	background-image:url(../images/inicio_btn.png);
+}
+
+#acerca
+{
+	width:183px;
+	background-image:url(../images/acerca_btn.png);
+}
+
+#contact
+{
+	width:124px;
+	background-image:url(../images/contact_btn.png);
+}
+
+#blog
+{
+	width:87px;
+	background-image:url(../images/blog_btn.png);
+}
+
+
+#inicio:hover
+{
+	background-image:url(../images/inicio_over.png);
+}
+
+#acerca:hover
+{
+	background-image:url(../images/acerca_over.png);
+}
+
+#contact:hover
+{
+	background-image:url(../images/contact_over.png);
+}
+
+#blog:hover
+{
+	background-image:url(../images/blog_over.png);
+}
+
+#content
+{
+	width: 1028px;
+	height: 1006px;
+	margin-top:38px;
+	margin-left: 63px;
+}
+
+#content h1
+{
+	font-size: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 525px;
+	margin-top: 80px;
+}
+
+#content h2
+{
+	position: relative;
+	top: 220px;
+	margin-left: 100px;
+	font-size: 50px;
+}
+
+#color_line
+{
+	height: 35px;
+	width: 77%;
+	background-color: white;
+	position: relative;
+	top: 100px;
+	margin-left: 100px;
+}
+
+#lapa2
+{
+	background-image:url(../images/lapa2.png);
+	width: 313px;
+	height: 154px;
+	position: relative;
+	top: -1351px;
+	left: 670px;
+}
+
+#footer
+{
+	position: relative;
+	top: 280px;
+	left: 240px;
+}
+
+#footer ul li
+{
+	display: inline;
+	margin-left: 80px;
+}
