@@ -3,32 +3,20 @@
 	{
 		"selected_items":
 		[
+			[
+				"fu",
+				"function"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "js/actions.js",
 			"settings":
 			{
-				"buffer_size": 15,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/Leo/Desktop/working/index.html",
-			"settings":
-			{
-				"buffer_size": 6248,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "script1.js",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
+				"buffer_size": 3148,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -39,16 +27,16 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 81.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 392.0
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 126.0,
 		"history":
 		[
 		]
@@ -62,14 +50,24 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/C/Users/Leo/Documents/GitHub/javascript-broccoli",
+		"/C/Users/Leo/Documents/GitHub/javascript-broccoli/js"
+	],
 	"file_history":
 	[
+		"/C/Users/Leo/Documents/GitHub/javascript-broccoli/js/main.js",
 		"/C/Users/Leo/Documents/GitHub/javascript-broccoli/index.html",
-		"/C/Users/Leo/Documents/GitHub/javascript-broccoli/script1.js"
+		"/C/Users/Leo/Documents/GitHub/javascript-broccoli/acerca-de.html",
+		"/C/Users/Leo/Documents/GitHub/javascript-broccoli/js/actions.js",
+		"/C/Users/Leo/Documents/GitHub/javascript-broccoli/js/main",
+		"/C/Users/Leo/Documents/GitHub/javascript-broccoli/js/colors_line.js",
+		"/C/Users/Leo/Desktop/Sublime Text Build 3103 x64/Data/Packages/User/Preferences.sublime-settings"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -83,6 +81,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"getCurrentPage"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -100,16 +99,16 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
-					"semi_transient": false,
+					"file": "js/actions.js",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 15,
+						"buffer_size": 3148,
 						"regions":
 						{
 						},
@@ -122,71 +121,14 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Users/Leo/Desktop/working/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6248,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": -0.0,
+						"translation.y": 720.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "script1.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -194,11 +136,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 23.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -227,11 +169,11 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "",
+	"pinned_build_system": "Packages/Default/Syntax Tests.sublime-build",
 	"project": "broccoli.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -269,7 +211,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 238.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

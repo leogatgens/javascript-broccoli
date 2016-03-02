@@ -1,6 +1,7 @@
 // JavaScript Document
 window.onload=function()
 {
+	'use strict';
 	var myColors = new Array({'nombre':'Azul Real','color':'#00579e'},{'nombre':'Azul Medianoche','color':'#0b0837'}, {'nombre':'Morado Oscuro','color':'#280526'},{'nombre':'Agua Marino','color':'#31b09f'},{'nombre':'Rojo Oscuro','color':'#3e2125'}, {'nombre':'Lavanda','color':'#4c3279'},{'nombre':'Celeste Mediterraneo','color':'#5294a5'});
 	var currentColor = 0;
 	

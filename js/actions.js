@@ -1,9 +1,33 @@
 // JavaScript Document
-window.onload=function()
-{
+
+var actionsManager = (function actionsEFFI(){
+	'use strict';
 	var productsHTML = '';
 	var MAX_PRODUCTS = 12;
 	var current_page = 1;
+	var publicAPI = {  init : init};
+	var $index = null;
+	var $acerca  = null;
+
+
+	function handleClickIndex(e){
+		window.location = "index.html";
+	}
+	
+	function handleClickAcerca(e){
+		window.location = "acerca-de.html";	
+	}
+
+	function init(params){
+
+	 $index = $(params.index); 
+	 $acerca = $(params.acerca); 
+
+	$index.bind('click',handleClickIndex);
+	$acerca.bind('click',handleClickAcerca);
+
+
+	
 	
 	//Objeton Json con información de los productos a desplegar
 	var productsObject = {
@@ -21,7 +45,7 @@ window.onload=function()
 		};
 	
 	//Este for recorre todo lo que hay en el objeto y lo va sumando a una variable string para luego agregarse en products_wraper
-	for(i=0; i < productsObject.products.length; i++)
+	for(var i=0; i < productsObject.products.length; i++)
 	{
 		productsHTML += '<div class="product">';
         productsHTML +=	'<img src="' + productsObject.products[i].imgURL + '" />';
@@ -34,21 +58,27 @@ window.onload=function()
 	//Se agrega el html con los productos al div contenedor
 	$('#products_wraper').html(productsHTML);
 		
-	currentPage = getCurrentPage();
-	showCategories = true;
+	current_page = getCurrentPage();
+	var showCategories = true;
+
+
+	}	
+
+	function function_name(argument) {
+			$("#categorie_btn img").click( function(e){
+			if(showCategories)
+			{
+				$("#categories_menu").hide();
+				showCategories = false;
+			}
+			else
+			{
+				$("#categories_menu").show();
+				showCategories = true;
+			}
+		});
+	}
 	
-	$("#categorie_btn img").click( function(e){
-		if(showCategories)
-		{
-			$("#categories_menu").hide();
-			showCategories = false;
-		}
-		else
-		{
-			$("#categories_menu").show();
-			showCategories = true;
-		}
-	});
 	
 	$("#categorie_btn img").mouseover(function(e) {
         this.style.cursor = "pointer";
@@ -56,7 +86,7 @@ window.onload=function()
 	
 	function handleMenu()
 	{
-		switch(currentPage)
+		switch(current_page)
 		{
 			case "index.html" :
 							$("#inicio").css("background-image", "url(images/inicio_over.png)");
@@ -69,13 +99,7 @@ window.onload=function()
 		}	
 	}
 	
-	$("#acerca").click(function(e){
-		window.location = "acerca-de.html";
-	});
 	
-	$("#inicio").click(function(e){
-		window.location = "index.html";
-	});
 	
 	function getCurrentPage() {
 		var loc = window.location;
@@ -83,5 +107,5 @@ window.onload=function()
 		return pathName;
 	}
 	
-	handleMenu();
-}
+	return publicAPI;
+})();
