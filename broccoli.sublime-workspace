@@ -12,10 +12,34 @@
 	"buffers":
 	[
 		{
+			"file": "cosmeticos.html",
+			"settings":
+			{
+				"buffer_size": 2324,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "productos.html",
+			"settings":
+			{
+				"buffer_size": 4667,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/productos.js",
+			"settings":
+			{
+				"buffer_size": 1220,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "js/actions.js",
 			"settings":
 			{
-				"buffer_size": 3148,
+				"buffer_size": 2988,
 				"line_ending": "Unix"
 			}
 		}
@@ -27,12 +51,16 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 81.0,
-		"last_filter": "",
+		"height": 334.0,
+		"last_filter": "Snippet: ",
 		"selected_items":
 		[
+			[
+				"Snippet: ",
+				"Snippet: Function"
+			]
 		],
-		"width": 392.0
+		"width": 416.0
 	},
 	"console":
 	{
@@ -57,12 +85,17 @@
 	],
 	"file_history":
 	[
-		"/C/Users/Leo/Documents/GitHub/javascript-broccoli/js/main.js",
-		"/C/Users/Leo/Documents/GitHub/javascript-broccoli/index.html",
-		"/C/Users/Leo/Documents/GitHub/javascript-broccoli/acerca-de.html",
 		"/C/Users/Leo/Documents/GitHub/javascript-broccoli/js/actions.js",
-		"/C/Users/Leo/Documents/GitHub/javascript-broccoli/js/main",
+		"/C/Users/Leo/Documents/GitHub/javascript-broccoli/acerca-de.html",
+		"/C/Users/Leo/Documents/GitHub/javascript-broccoli/productos.html",
+		"/C/Users/Leo/Documents/GitHub/javascript-broccoli/index.html",
+		"/C/Users/Leo/Documents/GitHub/javascript-broccoli/js/main.js",
 		"/C/Users/Leo/Documents/GitHub/javascript-broccoli/js/colors_line.js",
+		"/C/Users/Leo/Documents/GitHub/javascript-broccoli/js/jquery-1.4.2.min.js",
+		"/C/Users/Leo/Documents/GitHub/javascript-broccoli/css/style.css",
+		"/C/Users/Leo/Documents/GitHub/javascript-broccoli/css/style-productos.css",
+		"/C/Users/Leo/Documents/GitHub/javascript-broccoli/cosmeticos.html",
+		"/C/Users/Leo/Documents/GitHub/javascript-broccoli/js/main",
 		"/C/Users/Leo/Desktop/Sublime Text Build 3103 x64/Data/Packages/User/Preferences.sublime-settings"
 	],
 	"find":
@@ -71,9 +104,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -81,6 +115,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"contact",
+			"productos",
+			"********************************-->\n",
+			"productos",
+			"MostraCategorias",
+			"current_page",
+			"handleMenu",
+			"products_wraper",
+			"categorie_btn img",
 			"getCurrentPage"
 		],
 		"highlight": true,
@@ -99,16 +142,106 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "cosmeticos.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2324,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								778,
+								778
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "productos.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4667,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								776,
+								776
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/productos.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1220,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1220,
+								1220
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "js/actions.js",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 3148,
+						"buffer_size": 2988,
 						"regions":
 						{
 						},
@@ -124,8 +257,8 @@
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": -0.0,
-						"translation.y": 720.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

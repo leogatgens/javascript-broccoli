@@ -5,7 +5,7 @@ window.onload=function()
 	var myColors = new Array({'nombre':'Azul Real','color':'#00579e'},{'nombre':'Azul Medianoche','color':'#0b0837'}, {'nombre':'Morado Oscuro','color':'#280526'},{'nombre':'Agua Marino','color':'#31b09f'},{'nombre':'Rojo Oscuro','color':'#3e2125'}, {'nombre':'Lavanda','color':'#4c3279'},{'nombre':'Celeste Mediterraneo','color':'#5294a5'});
 	var currentColor = 0;
 	
-	for(i=0;i<myColors.length;i++)
+	for(var i=0;i<myColors.length;i++)
 	{
 		$("#color_line").append( "<div id='color0" + i + "'></div><h3 id='h_color"+ i + "'></h3>");
 		$("#color0" + i).css("width", "25px");
@@ -27,8 +27,8 @@ window.onload=function()
 			  }, 100);
         });
 		$("#color0" + i).click(function() {
-			currentId = this.id;
-			currentNumber = parseInt(currentId.slice(5));
+			var currentId = this.id;
+			var currentNumber = parseInt(currentId.slice(5));
 			currentColor = currentNumber;
 			$("#content h2").html(myColors[currentNumber].nombre);
         });

@@ -71,6 +71,12 @@ body
 	background-image:url(../images/contact_btn.png);
 }
 
+#productos
+{
+	width:124px;
+	background-image:url(../images/product_btn.png);
+}
+
 #blog
 {
 	width:87px;
@@ -92,6 +98,12 @@ body
 {
 	background-image:url(../images/contact_over.png);
 }
+
+#productos:hover
+{
+	background-image:url(../images/product_btn.png);
+}
+
 
 #blog:hover
 {
@@ -313,3 +325,4 @@ body
 	display: inline;
 	margin-left: 80px;
 }
+

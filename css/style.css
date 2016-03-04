@@ -65,10 +65,10 @@ body
 	background-image:url(../images/acerca_btn.png);
 }
 
-#contact
+#productos
 {
 	width:124px;
-	background-image:url(../images/contact_btn.png);
+	background-image:url(../images/product_btn.png);
 }
 
 #blog
@@ -88,9 +88,9 @@ body
 	background-image:url(../images/acerca_over.png);
 }
 
-#contact:hover
+#productos:hover
 {
-	background-image:url(../images/contact_over.png);
+	background-image:url(../images/product_btn.png);
 }
 
 #blog:hover
